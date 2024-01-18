@@ -51,6 +51,7 @@ p {
     text-transform: uppercase;
     text-decoration: none;
     line-height: 1.17;
+    margin-right: 76px
 }
 
 .logo-half {
@@ -67,12 +68,11 @@ ul {
 .navigation-menu {
     display: flex;
     gap: 40px;
-    margin-left: 76px;
-
 }
 
 .navigation-item {
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .titles {
@@ -159,6 +159,8 @@ ul {
     padding: 16px 32px;
     margin-left: 489px;
     margin-top: 48px;
+    display: block;
+    min-width: 169px;
 }
 
 .button:hover {
@@ -299,6 +301,7 @@ ul {
 .project-container {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .project-header {
