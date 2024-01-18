@@ -42,10 +42,6 @@ p {
 }
 
 .header-logo {
-    margin-left: 156px;
-}
-
-.header-logo {
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -103,7 +99,6 @@ ul {
     gap: 40px;
     padding: 24px 0;
     margin-left: 332px;
-    margin-right: 156px;
 }
 
 .address {
